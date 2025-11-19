@@ -27,7 +27,7 @@ def is_low_light(frame, threshold=0.20):
 
     return mean_Y < threshold, mean_Y
 
-USE_FP16 = True
+USE_FP16 = False
 TARGET_WIDTH = 640
 class enhance_net_nopool(nn.Module):
     def __init__(self):
