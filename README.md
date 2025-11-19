@@ -9,8 +9,7 @@ What `main.py` does
 -	Writes an enhanced output video in MP4 format.
 
 Requirements
--	Python 3.8+ (your environment shows Python 3.12 which is fine)
--	PyTorch (CPU or CUDA build). See "Troubleshooting" if you encounter CUDA-related errors.
+-	Python 3.8+
 
 Quick usage
 -	Open `main.py` and at the bottom of the file you will find example values for `video_path`, `model_path`, and `output_path`.
