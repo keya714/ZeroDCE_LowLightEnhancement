@@ -291,8 +291,8 @@ def enhance_video(video_path, model_path, output_path, batch_size=12, skip_frame
 
 # Example usage
 if __name__ == "__main__":
-    video_path = r"ZeroDCE\sample3.mp4"
-    model_path = r"ZeroDCE\Epoch99.pth"
+    video_path = r"sample3.mp4"
+    model_path = r"Epoch99.pth"
     output_path = "enhanced_video.mp4"
 
     enhance_video(video_path, model_path, output_path)
